@@ -53,7 +53,7 @@ export class AuthService {
         loggedUser.emailId = user.email;
         loggedUser.phoneNumber = user.phoneNumber;
         loggedUser.avatar = user.photoURL;
-        loggedUser.isAdmin = user.email === "admin@gmail.com" ? true : false;
+        loggedUser.isAdmin = user.email === "anupamryadav@gmail.com" ? true : false;
       }
     } else {
       this.userDetails = null;
